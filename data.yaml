@@ -1,0 +1,7 @@
+train: /content/gdrive/MyDrive/KnivesDetection/Data/train
+val: /content/gdrive/MyDrive/KnivesDetection/Data/valid
+test: /content/gdrive/MyDrive/KnivesDetection/Data/test
+
+nc: 1
+names: ['knife']
+
