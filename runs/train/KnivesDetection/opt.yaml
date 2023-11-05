@@ -1,4 +1,4 @@
-weights: /content/yolov5/yolov5s.pt
+weights: yolov5/yolov5s.pt
 cfg: /content/gdrive/MyDrive/KnivesDetection/custom.yaml
 data: /content/gdrive/MyDrive/KnivesDetection/data.yaml
 hyp:
@@ -30,7 +30,7 @@ hyp:
   mosaic: 1.0
   mixup: 0.0
   copy_paste: 0.0
-epochs: 100
+epochs: 85
 batch_size: 32
 imgsz: 640
 rect: false
@@ -65,4 +65,4 @@ entity: null
 upload_dataset: false
 bbox_interval: -1
 artifact_alias: latest
-save_dir: yolov5/runs/train/KnivesDetection5
+save_dir: yolov5/runs/train/KnivesDetection2
