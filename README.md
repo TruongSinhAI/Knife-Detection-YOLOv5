@@ -1,6 +1,6 @@
 # Knife Detection using YOLOv5
 
-This repository contains the implementation of knife detection using YOLOv5. The project is based on the research paper presented at the ACM International Conference on Intelligent Information Technology (ICIIT) 2024.
+This repository contains the implementation of knife detection using YOLOv5. The project is our research paper presented at the ACM International Conference on Intelligent Information Technology (ICIIT) 2024.
 
 ## Table of Contents
 
