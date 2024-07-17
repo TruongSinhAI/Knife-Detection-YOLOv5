@@ -11,4 +11,4 @@ The result we got:
 Example when run model:
 ![val_batch1_pred](https://github.com/TruongSinhAI/Knife-Detection-YOLOv5/assets/115483496/d768c97a-d4f2-4daa-b824-ad39cd722c6f)
 
-You can read more details at ![Knife_Detection](https://github.com/TruongSinhAI/Knife-Detection-YOLOv5/blob/main/Knife_Detection.pdf)
+You can read more details at https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICIIT2024/2/2e3f4117-f0c8-11ee-8182-16bb50361d1f/OUT/iciit2024-2.html
