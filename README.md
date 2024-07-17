@@ -1,14 +1,51 @@
-# Knife-Detection-YOLOv5
+# Knife Detection using YOLOv5
 
-The project focuses on using the YOLOv5 model for knife detection in photos and videos. YOLOv5, based on the YOLO architecture, is chosen for its real-time object detection capabilities. Key points include discussing model architecture, training procedure, performance assessment, layer selection, and the model's benefits and drawbacks. The report concludes with recommendations for improving performance and reducing false positives in knife detection.
+This repository contains the implementation of knife detection using YOLOv5. The project is based on the research paper presented at the ACM International Conference on Intelligent Information Technology (ICIIT) 2024.
 
-The data we used from github: [https://github.com/ari-dasci/OD-WeaponDetection/tree/master/Knife_detection](url)
+## Table of Contents
 
-The result we got:
-![image](https://github.com/TruongSinhAI/Knife-Detection-YOLOv5/assets/115483496/350c8014-8329-4421-8ff7-37afb4ae781b)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Evaluation](#evaluation)
+- [Results](#results)
+
+## Introduction
+
+Knife detection is a crucial task in various security applications, such as surveillance systems and threat detection in public areas. This project leverages the power of YOLOv5, a state-of-the-art object detection model, to accurately identify and locate knives in images and videos.
+
+The detailed methodology and results of this project are documented in our paper presented at ICIIT 2024. You can access the paper [here](https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICIIT2024/2/2e3f4117-f0c8-11ee-8182-16bb50361d1f/OUT/iciit2024-2.html#bib11).
+
+## Installation
+
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/TruongSinhAI/Knife-Detection-YOLOv5.git
+cd Knife-Detection-YOLOv5
+```
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+## Dataset
+The dataset used for training the knife detection model can be obtained from [link to dataset](https://github.com/ari-dasci/OD-WeaponDetection/tree/master/Knife_detection).
+
+![image](https://github.com/user-attachments/assets/a3679c4d-adc8-42da-aeba-db7e84e98174)
+
+## Evaluation
+Evaluate the trained model using:
+
+```bash
+python val.py --weights runs/train/exp/weights/best.pt --data data/knife.yaml --img 640
+```
+
+## Results
+The results of the knife detection model, including precision, recall, and mAP, are documented in the results directory. Detailed evaluation metrics and performance analysis can be found in our [ICIIT 2024 paper.](https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICIIT2024/2/2e3f4117-f0c8-11ee-8182-16bb50361d1f/OUT/iciit2024-2.html#bib11)
+
+![image](https://github.com/user-attachments/assets/d098e7f4-b295-48b7-9481-398b09187bdd)
 
 
-Example when run model:
-![val_batch1_pred](https://github.com/TruongSinhAI/Knife-Detection-YOLOv5/assets/115483496/d768c97a-d4f2-4daa-b824-ad39cd722c6f)
 
-You can read more details at https://camps.aptaracorp.com/ACM_PMS/PMS/ACM/ICIIT2024/2/2e3f4117-f0c8-11ee-8182-16bb50361d1f/OUT/iciit2024-2.html
